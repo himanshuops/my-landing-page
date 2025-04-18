@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.top-bar {
+  background: #f4f4f4;
+  padding: 10px;
+  text-align: center;
+}
+nav {
+  background: #222;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+.hero {
+  padding: 50px;
+  background: #eee;
+  text-align: center;
+}
+.training, .about, .team, .contact, .testimonial {
+  padding: 40px 20px;
+  text-align: center;
+}
+.team-members {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.team-members .member {
+  width: 200px;
+}
+form input, form textarea {
+  display: block;
+  width: 80%;
+  margin: 10px auto;
+  padding: 10px;
+}
+button {
+  padding: 10px 20px;
+}
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
